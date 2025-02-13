@@ -1,0 +1,131 @@
+/* Apply Helvetica font globally */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center; /* Center content globally */
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #222;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation List */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation Items */
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Navigation Links */
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+/* Hover Effect */
+.navbar ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Make space for fixed navbar */
+.content {
+    padding-top: 100px;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+/* Home Page Info Sections */
+.info-container {
+    max-width: 800px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual Info Box */
+.info-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+/* Software Developer Section List */
+.tech-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tech-list li {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+.tech-list i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+/* Country Lists (2 columns) */
+.country-list-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.country-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 180px;
+    margin: 0;
+    text-align: left;
+}
+
+.country-list.right-align {
+    text-align: right;
+}
+
+/* Languages List */
+.language-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add space between language entries */
+    margin: 0;
+    text-align: center;
+}
+
+
